@@ -12,13 +12,7 @@ function App() {
   const decress=()=>{
     setCount(count-1);
   }
-
-    // const myStyle = {
-    //   color: "white",
-    //   backgroundColor: "DodgerBlue",
-    //   padding: "10px",
-    //   fontFamily: "Sans-Serif"
-    // }
+ 
   
 
 
