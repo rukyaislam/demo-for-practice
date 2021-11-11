@@ -13,10 +13,23 @@ function App() {
     setCount(count-1);
   }
 
+    // const myStyle = {
+    //   color: "white",
+    //   backgroundColor: "DodgerBlue",
+    //   padding: "10px",
+    //   fontFamily: "Sans-Serif"
+    // }
+  
+
+
+
+  
+
   return (
- <div>
-<p>the number{count}</p>
-<button onClick={incress}> add</button>
+ <div class="count">
+<p>The number is {count}</p>
+
+<button onClick={incress} style={{width:"100px"}}> add</button>
 <button onClick={decress}>  minus </button>
  </div>
  
